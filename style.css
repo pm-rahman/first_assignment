@@ -1,0 +1,188 @@
+body {
+    font-family: 'Work Sans', sans-serif;
+}
+
+.margin {
+    padding: 50px 100px;
+}
+
+.section_tittle {
+    font-weight: 700;
+    font-size: 35px;
+    margin: 0 0 10px 0;
+}
+
+.section_description {
+    font-weight: 400;
+    font-size: 14px;
+    color: #444343;
+    margin: 0;
+}
+.white_btn{
+    width: 140px;
+    height: 50px;
+    font-weight: 600;
+    font-size: 17px;
+    border-radius: 3px;
+    color: #F15B22;
+    background-color: white;
+    border: none;
+}
+
+/* header css start */
+header {
+    background-image: url(./images/banner/banner2.png);
+    background-size: cover;
+    background-position: center;
+    /* height: ; */
+    text-align: right;
+}
+
+.header_content {
+    margin: 8vh 0 8vh auto;
+    width: 40%;
+}
+
+.header_tittle {
+    font-weight: 700;
+    font-size: 45px;
+    margin: 0;
+}
+
+.slider_btn {
+    width: 140px;
+    height: 54px;
+    font-weight: 600;
+    font-size: 17px;
+    border-radius: 3px;
+    background-color: #F15B22;
+    color: white;
+    border: none;
+    margin-top: 10px;
+
+}
+
+/* previous_year css */
+.previous_year {
+    display: flex;
+    gap: 4%;
+    align-items: center;
+}
+
+img {
+    width: 48%;
+    height: auto;
+}
+
+.previous_content {
+    width: 48%;
+}
+
+.previous_year ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    font-weight: 400;
+    font-size: 12px;
+    color: #444343;
+}
+
+.previous_year ul li {
+    margin-bottom: 4px;
+}
+
+.previous_year ul li img {
+    height: 17px;
+    width: 17px;
+    margin-right: 5px;
+}
+
+/* my_plan_items css */
+.my_plan {
+    text-align: center;
+}
+
+.my_plan_items {
+    display: flex;
+    gap: 1%;
+    margin-top: 40px;
+}
+
+.my_plan_item {
+    width: 24%;
+    text-align: center;
+}
+
+.my_plan_item img {
+    width: 62px;
+    height: 62px;
+}
+
+.plan_tittle {
+    font-weight: 700;
+    font-size: 25px;
+    margin: 10px 0;
+}
+
+.plan_sub_tittle {
+    font-weight: 500;
+    font-size: 20px;
+    color: #737272;
+    margin: 0;
+}
+/* call section css */
+.call_content{
+    color: white;
+    padding: 35px;
+    margin-bottom: 40px;
+    border-radius: 5px;
+    background: linear-gradient(to right,rgba( 241, 91, 34,.9),rgba(115, 114, 114,0)) ,url(./images/watch.png);
+}
+
+/* footer css */
+footer{
+    background: #151414;
+    text-align: left;
+}
+.footer_main{
+    display: flex;
+    gap: 4%;
+    color: white;
+}
+.footer_bio{
+    width: 60%;
+
+}
+.footer_bio p{
+    color: #FFFFFF;
+    width: 70%;
+}
+.footer_bio ul{
+    list-style: none;
+    padding: 0;
+}
+.footer_bio ul a{
+    text-decoration: none;
+    color: white;
+    display: inline-block;
+    margin: 5px 0;
+}
+.footer_social{
+    display: flex;
+    gap: 13px;
+}
+.footer_social img{
+    height: 38px;
+    width: 38px;
+}
+.footer_input {
+    width: 100%;
+    height: 48px;
+    padding: 0px 15px;
+    box-sizing: border-box;
+    margin-bottom: 13px;
+    border-radius: 5px;
+    background: transparent;
+    border: 1px solid white;
+}
