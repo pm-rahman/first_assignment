@@ -32,7 +32,25 @@ body {
     background-color: white;
     border: none;
 }
+ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    font-weight: 400;
+    font-size: 12px;
+    color: #444343;
+}
 
+ul li {
+    margin-bottom: 4px;
+}
+
+ul li img {
+    height: 17px;
+    width: 17px;
+    margin-right: 5px;
+}
 /* header css start */
 header {
     background-image: url(./images/banner/banner2.png);
@@ -82,26 +100,31 @@ img {
     width: 48%;
 }
 
-.previous_year ul {
-    list-style: none;
-    display: flex;
-    margin: 0;
-    padding: 0;
-    font-weight: 400;
-    font-size: 12px;
-    color: #444343;
+/* practice_section css */
+.practice_section {
+    text-align: center;
+    /* background: rgb(236, 235, 235); */
+    padding: 36px 26px;
+    border-radius: 5px;
 }
-
-.previous_year ul li {
+.practice_sessions{
+    display: flex;
+    gap: 2%;
+    margin-top: 20px;
+}
+.practice_session{
+    width: 31%;
+    padding: 25px 20px;
+    background: rgb(236, 235, 235);
+    text-align: left;
+    border-radius: 5px;
+}
+.practice_session h4{
     margin-bottom: 4px;
 }
-
-.previous_year ul li img {
-    height: 17px;
-    width: 17px;
-    margin-right: 5px;
+.practice_session p{
+    margin-bottom: 4px;
 }
-
 /* my_plan_items css */
 .my_plan {
     text-align: center;
@@ -179,6 +202,9 @@ footer{
 .footer_social img{
     height: 38px;
     width: 38px;
+}
+.footer_from h4{
+    margin-bottom: 8px;
 }
 .footer_input {
     width: 100%;
